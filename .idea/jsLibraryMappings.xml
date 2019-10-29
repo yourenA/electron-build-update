@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="JavaScriptLibraryMappings">
+    <file url="file://$PROJECT_DIR$" libraries="{electron-quick-start/node_modules}" />
+    <file url="file://$PROJECT_DIR$/package/myClient-win32-x64/resources/app" libraries="{electron-quick-start/package/myClient-win32-x64/resources/app/node_modules}" />
+    <file url="file://$PROJECT_DIR$/package2/myClient-win32-x64/resources/app" libraries="{electron-quick-start/package2/myClient-win32-x64/resources/app/node_modules}" />
+    <file url="file://$PROJECT_DIR$/package2/myClient-win32-x64/resources/app/package/myClient-win32-x64/resources/app" libraries="{electron-quick-start/package2/myClient-win32-x64/resources/app/package/myClient-win32-x64/resources/app/node_modules}" />
+    <includedPredefinedLibrary name="ECMAScript 6" />
+  </component>
+</project>

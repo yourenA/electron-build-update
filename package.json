@@ -1,0 +1,50 @@
+{
+  "name": "electron-quick-start",
+  "version": "2.0.14",
+  "description": "A minimal Electron application",
+  "main": "index.js",
+  "build":{
+    "publish": [
+      {
+        "provider": "generic",
+        "url": "http://localhost:3000/electron/"
+      }
+    ],
+    "directories": {
+      "output": "release",
+      "app": "./"
+    },
+    "win": {
+      "target": [
+        "nsis",
+        "zip"
+      ]
+    },
+    "nsis": {
+      "oneClick": false,
+      "allowToChangeInstallationDirectory": true,
+      "perMachine": true
+    }
+  },
+  "scripts": {
+    "start": "electron .",
+    "dist": "electron-builder"
+  },
+  "repository": "https://github.com/electron/electron-quick-start",
+  "keywords": [
+    "Electron",
+    "quick",
+    "start",
+    "tutorial",
+    "demo"
+  ],
+  "author": "GitHub",
+  "license": "CC0-1.0",
+  "devDependencies": {
+    "electron-builder": "^21.2.0",
+    "electron": "^6.0.10"
+  },
+  "dependencies": {
+    "electron-updater": "^4.1.2"
+  }
+}
